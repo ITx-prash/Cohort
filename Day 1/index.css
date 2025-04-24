@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #242424;
+}
+header > nav > ul {
+  color: aliceblue;
+}
+header>nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+header>nav>ul>li{
+display: inline;
+}
+
+/* Remove default styling from lists */
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
