@@ -9,12 +9,12 @@ body {
 header > nav > ul {
   color: aliceblue;
 }
-header>nav{
-    display: flex;
-    flex-wrap: wrap;
+header > nav {
+  display: flex;
+  flex-wrap: wrap;
 }
-header>nav>ul>li{
-display: inline;
+header > nav > ul > li {
+  display: inline;
 }
 
 /* Remove default styling from lists */
