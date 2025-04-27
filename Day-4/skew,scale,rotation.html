@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-[#242424]">
+    <!-- rotation and scale on hover-->
+    <div class="flex min-h-screen flex-col items-center justify-center">
+      <button
+        class="spin cursor-pointer rounded-lg m-6 bg-green-500 px-7 py-2 font-bold text-white duration-500  hover:scale-125 hover:bg-red-400"
+      >
+        Know Me!
+      </button>
+      <button
+        class="spin cursor-pointer rounded-lg m-6 bg-green-500 px-7 py-2 font-bold text-white duration-2000 hover:rotate-x-360 hover:rotate-y-360 hover:scale-200 hover:rotate-z-360 hover:bg-red-400"
+      >
+        Know Me!
+      </button>
+      <!-- image scale -->
+       <img src="../Day-3/assets/images/avatar-jessica.jpeg" alt="image" class="hover:scale-105 rounded-xl">
+       <!-- skew -->
+       <img src="../Day-3/assets/images/avatar-jessica.jpeg" alt="image" class="scale-96 rounded-xl">
+
+    </div>
+  </body>
+</html>
