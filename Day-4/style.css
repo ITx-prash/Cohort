@@ -368,6 +368,12 @@
   .border-collapse {
     border-collapse: collapse;
   }
+  .origin-bottom {
+    transform-origin: bottom;
+  }
+  .origin-right {
+    transform-origin: right;
+  }
   .scale-50 {
     --tw-scale-x: 50%;
     --tw-scale-y: 50%;
@@ -425,6 +431,9 @@
   }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+  }
+  .transform-\[matrix\(1\,2\,3\,4\,5\,6\)\] {
+    transform: matrix(1,2,3,4,5,6);
   }
   .animate-bounce {
     animation: var(--animate-bounce);
@@ -667,6 +676,10 @@
     --tw-duration: 3200ms;
     transition-duration: 3200ms;
   }
+  .duration-21000 {
+    --tw-duration: 21000ms;
+    transition-duration: 21000ms;
+  }
   .hover\:translate-y-2 {
     &:hover {
       @media (hover: hover) {
@@ -867,6 +880,65 @@
     &:hover {
       @media (hover: hover) {
         --tw-rotate-z: rotateZ(360deg);
+        transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+      }
+    }
+  }
+  .hover\:skew-2 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-skew-x: skewX(2deg);
+        --tw-skew-y: skewY(2deg);
+        transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+      }
+    }
+  }
+  .hover\:skew-6 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-skew-x: skewX(6deg);
+        --tw-skew-y: skewY(6deg);
+        transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+      }
+    }
+  }
+  .hover\:skew-12 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-skew-x: skewX(12deg);
+        --tw-skew-y: skewY(12deg);
+        transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+      }
+    }
+  }
+  .hover\:-skew-x-12 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-skew-x: skewX(calc(12deg * -1));
+        transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+      }
+    }
+  }
+  .hover\:skew-x-12 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-skew-x: skewX(12deg);
+        transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+      }
+    }
+  }
+  .hover\:-skew-y-12 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-skew-y: skewY(calc(12deg * -1));
+        transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+      }
+    }
+  }
+  .hover\:skew-y-12 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-skew-y: skewY(12deg);
         transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
       }
     }
